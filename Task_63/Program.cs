@@ -5,10 +5,9 @@ int n = int.Parse(Console.ReadLine());
 
 void NaturalNumber(int num)
 {
-    if (num == 1) return;
-    num--;
-    NaturalNumber(num);
+    if (num == 0) return;
+    NaturalNumber(num - 1);
     Console.Write($"{num} ");
 }
 
-NaturalNumber(n + 1);
+NaturalNumber(n);
