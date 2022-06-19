@@ -8,7 +8,7 @@ void SumNumber(int count, int summ) // метод нахождения сумм�
 {
     if (count == 0) 
     {
-        Console.Write($"Сумма цифр в числе {n} равна {summ}"); 
+        Console.Write($"Сумма цифр в числе равна {summ}"); 
         return;
     }
     int number = count % 10;
